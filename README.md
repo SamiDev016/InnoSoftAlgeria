@@ -14,3 +14,5 @@ Frontend: HTML5, CSS3, Bootstrap
 Backend: Laravel
 Database: MySQL
 Version Control: Git & GitHub
+
+<img width="936" alt="innovation2" src="https://github.com/user-attachments/assets/c64640fe-4337-4845-afe3-36c78495377d" />
