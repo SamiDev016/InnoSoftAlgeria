@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnoSoft Algeria - Leading Software Solutions Company</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="logo.png" alt="InnoSoft Logo" class="logo-img">
+                        <span>InnoSoft</span>
+                    </a>
+                </div>
+                <div class="nav-right">
+                    <ul class="nav-links">
+                        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                        <li><a href="#about" data-i18n="nav.about">About</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                    <select id="languageSelect" class="language-select">
+                        <option value="en">English</option>
+                        <option value="fr">Français</option>
+                        <option value="ar">العربية</option>
+                    </select>
+                    <div class="mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 data-i18n="hero.title">Transforming Ideas into <span class="highlight">Digital Excellence</span></h1>
+                <p data-i18n="hero.subtitle">Leading software solutions provider in Algeria, delivering innovative technology solutions for businesses worldwide</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="primary-btn" data-i18n="hero.cta">Start Your Project</a>
+                    <a href="#services" class="secondary-btn" data-i18n="hero.explore">Explore Solutions</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="section1.jpg" alt="Digital Innovation">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Solutions</span>
+                <h2 data-i18n="services.title">Comprehensive Digital Services</h2>
+                <p data-i18n="services.subtitle">Empowering businesses with cutting-edge technology solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Custom Software Development</h3>
+                    <p>Tailored solutions designed to meet your specific business needs</p>
+                    <ul class="service-features">
+                        <li>Enterprise Solutions</li>
+                        <li>Web Applications</li>
+                        <li>API Integration</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Native and cross-platform mobile applications</p>
+                    <ul class="service-features">
+                        <li>iOS Development</li>
+                        <li>Android Development</li>
+                        <li>Flutter Apps</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and services</p>
+                    <ul class="service-features">
+                        <li>Cloud Migration</li>
+                        <li>DevOps Services</li>
+                        <li>Cloud Security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-content" data-aos="fade-right">
+                    <span class="section-tag">About Us</span>
+                    <h2 data-i18n="about.title">Leading Innovation in Algeria</h2>
+                    <p data-i18n="about.description">InnoSoft Algeria is a premier software development company dedicated to delivering exceptional digital solutions. With years of experience and a team of skilled professionals, we help businesses transform their digital presence.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Project Success Rate</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>24/7</h3>
+                            <p>Client Support</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="section2.jpg" alt="Our Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 data-i18n="contact.title">Start Your Project</h2>
+                <p data-i18n="contact.subtitle">Let's discuss how we can help your business grow</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Algiers, Algeria</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+213 782 68 46 01</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>innovationsoftwaredz@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" data-i18n="contact.form.name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" data-i18n="contact.form.email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" data-i18n="contact.form.phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" data-i18n="contact.form.message" placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="primary-btn" data-i18n="contact.form.send">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="logo.png" alt="InnoSoft Logo" class="footer-logo">
+                    <p>Leading software solutions provider in Algeria, delivering innovative technology solutions for businesses worldwide.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Custom Software</a></li>
+                        <li><a href="#services">Mobile Development</a></li>
+                        <li><a href="#services">Cloud Solutions</a></li>
+                        <li><a href="#services">IT Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Algiers, Algeria</li>
+                        <li><i class="fas fa-phone"></i> +213 XX XX XX XX</li>
+                        <li><i class="fas fa-envelope"></i> contact@innosoft.dz</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 InnoSoft Algeria. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
